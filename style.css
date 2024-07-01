@@ -1,0 +1,223 @@
+/* For images i use unsplash   */
+/*For text i use Lorem Ipsum */
+/*For icon i use https://www.flaticon.com/free-icons/google   */
+
+
+body{
+
+    font-family: "Noto Sans", sans-serif;                   /* Google Font */
+    background-image:  linear-gradient(#ffffff, #959f93);
+
+    
+}
+
+header{
+    border: #000000;
+    background-color: #01352c;
+    margin: 0px;
+    padding: 25PX;
+}
+header h1{
+    color: white;
+    padding: 40px;
+    
+}
+
+body h1{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+
+}
+
+
+nav{
+    float: right;
+    margin: 10px;
+    border: 10px  black;
+    padding: 10px;
+   
+    }
+
+    nav a{
+
+        text-decoration: none;
+        color: #01352c;
+        display: inline-block;
+        padding: 10px 40px;
+    }
+
+
+
+
+    nav ul{
+      
+        padding: 0px;
+        margin: 10px;
+        text-align: center;
+        list-style-type: none;
+        
+    }
+    nav a:hover{
+        color: #9a5302;
+        
+    
+    }  
+
+    main{
+        overflow:auto; 
+        border-right:1px solid #01352c; 
+    }
+    
+
+    
+    .wrapper{
+        
+        margin: auto;
+        margin-left: 10px;
+        margin-top: 15px;
+        padding: 0%;
+    }
+    .div1{
+        padding: 20px ; 
+        margin-right: 20px;
+     
+    }
+
+
+    .div2{
+        overflow: auto;
+        margin: 40px 0px; 
+        
+        }
+
+     .box{
+        float:left; 
+        width:32%; 
+        text-align: center; 
+        display: table-caption;
+        padding: 0%;
+
+        } 
+
+    .img1{
+        background-image: url(image/cowinfarm.jpg) ;
+        background-position: center;
+        width: 350px;
+        height: 300px;
+        margin-left: 22px;
+        
+       
+    }
+    .img2{
+        background-image: url(image/helpcow1.jpg) ;
+        background-position: center;
+        width: 350px;
+        height: 300px;
+        margin-left: 22px;
+    }
+    .img3{
+        background-image: url(image/cow.jpg) ;
+        background-position: center;
+        width: 350px;
+        height: 300px;
+        margin-left: 22px;
+
+    }
+
+    .icon{
+      
+        background-image: url(image/deal.png);
+        background-repeat: no-repeat;
+        width: 70px;
+        height: 70px;
+        margin-left: 280px;
+
+    }
+
+    .icon2{
+      
+        background-image: url(image/signup.png);
+        background-repeat: no-repeat;
+        width: 70px;
+        height: 70px;
+        margin-left: 280px;
+
+    }
+    main h2{
+        text-align: center;
+    }
+    main b,p{
+        display:inline-flex;
+        text-align:justify ;
+        padding: 0%;
+    }
+    
+    section p{
+        margin: 20px;
+        text-align: justify;
+    }
+    
+    .div3{
+        overflow: auto;
+        margin: 40px 0px;
+
+    
+    }
+    .join{
+        float:left; 
+        width:50%; 
+        text-align: center; 
+        display: table-caption;
+
+    } 
+    .join a{
+        color: #04452e;
+        text-decoration:underline;
+    }
+    .join a:hover{
+        color: #9a5302;
+       
+    }
+
+
+
+    .footerbox{
+        display: flex;
+        background-color: #01352c;
+        padding: 0;
+    }  
+    .footer1{
+        padding : 70px 30px;
+        margin-left: 40px;
+        margin-right: 100px;
+    }
+    .footer1 h2{
+        color: white;
+        padding-bottom: 6px;
+    }
+
+    .footer1 h3{
+        color: white;
+        padding-bottom: 6px;
+    }
+
+    .footer1 a{
+        display: flex;
+        padding-top: 10px;
+        text-decoration: none;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+    
+    }
+    .footer1 a:hover{
+        color: #bad8b6;
+    
+        }
+    .footer1 p{
+        color: rgb(255, 255, 255);
+        text-align: left;
+   
+        }
+
+
